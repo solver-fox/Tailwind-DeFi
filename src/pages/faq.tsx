@@ -74,7 +74,7 @@ export default function FAQ() {
           </p>
           <div className="mt-20">
             <dl className="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:grid-cols-3 lg:gap-x-10">
-              {faqs.map((faq,index) => (
+              {faqs.map((faq, index) => (
                 <div key={index}>
                   <dt className="text-base font-semibold leading-7 text-white">
                     {faq.question}

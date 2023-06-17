@@ -17,7 +17,7 @@ export default async function handler(
     res.status(200).json({
       data
     });
-  } catch(error) {
+  } catch (error) {
 
     const status = getExceptionStatus(error);
     const message = getExceptionMessage(error);

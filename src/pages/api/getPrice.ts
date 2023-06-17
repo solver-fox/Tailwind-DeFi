@@ -14,8 +14,8 @@ export default async function handler(
 
   try {
     const response = await axios.get("https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD,EUR,CNY,JPY,GBP");
-  
-    if(response) {
+
+    if (response) {
       const prices = response.data;
       res.status(200).json({
         prices
@@ -25,7 +25,7 @@ export default async function handler(
         error: "Provide chain address"
       })
     }
-  } catch(error) {
+  } catch (error) {
 
     const status = getExceptionStatus(error);
     const message = getExceptionMessage(error);

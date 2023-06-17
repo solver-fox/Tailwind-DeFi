@@ -12,7 +12,7 @@ Using Tailwind for quick and beautiful look that loads fast.
 Clone the project
 
 ```bash
-  git clone https://github.com/weber-stephen/bootstrap_dapp
+  git clone https://github.com/solver-fox/Tailwind-DeFi
 ```
 
 Go to the project directory
@@ -55,7 +55,7 @@ You can get your Infura key from here https://www.infura.io/ for free
 
 ## Authors
 
-- [@weber-stephen](https://www.github.com/weber-stephen)
+- [@solver-fox](https://www.github.com/solver-fox/)
 
 ## License
 
